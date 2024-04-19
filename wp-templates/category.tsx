@@ -28,10 +28,10 @@ export default function Component(props) {
         description={siteDescription}
         menuItems={primaryMenu}
       />
-      <Main className={undefined}>
+      <Main  className={undefined}>
         <>
           <EntryHeader title={`Category: ${name}`} image={undefined} date={undefined} author={undefined} className={undefined} />
-          <Container className={undefined}>
+          <Container  className={undefined}>
             {posts.edges.map((post) => (
               <Post
                 title={post.node.title}
